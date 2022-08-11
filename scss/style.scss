@@ -1,0 +1,17 @@
+.customHappy {
+    padding: .4rem;
+    width:100%;
+    height:100%;
+    border-radius: .4rem;
+    color:black;
+    font-weight:bold;
+    animation: myanimation 10s infinite;
+  }
+  
+  @keyframes myanimation {
+    0% {background-color: rgb(255, 0, 0);}
+    25%{background-color:yellow;}
+    50%{background-color:green;}
+    75%{background-color:rgb(63, 153, 255);}
+    100% {background-color: red;}
+  }
