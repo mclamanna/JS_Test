@@ -11,5 +11,14 @@ const everydayPack = new Backpack(
   false
 );
 
+const Weapons = new Sword(
+  "Sword",
+  ShortSword,
+  Burn,
+  6,
+  12,
+);
+
 console.log("The everydayPack object:", everydayPack);
+console.log("Weapons:", Weapons);
 console.log("The pocketNum value:", everydayPack.pocketNum);

@@ -20,6 +20,7 @@ class Backpack {
     };
     this.lidOpen = lidOpen;
   }
+  // methods 
   toggleLid(lidStatus) {
     this.lidOpen = lidStatus;
   }
@@ -28,5 +29,19 @@ class Backpack {
     this.strapLength.right = lengthRight;
   }
 }
-
 export default Backpack;
+
+class Sword {
+  constructor(
+    type,
+    magic,
+    damage,
+    weight,
+  ) {
+    this.type = type;
+    this.magic = magic;
+    this.damage = damage;
+    this.weight = weight;
+  }
+} 
+export default Sword;
