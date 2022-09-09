@@ -54,4 +54,10 @@ body {
   100% {
     background-color: rgb(122, 13, 13);
   }
+}
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Silkscreen", cursive;
 }/*# sourceMappingURL=style.css.map */

@@ -2,25 +2,41 @@ body {
   background-color: #000000;
 }
 .customHappy {
-    padding: .4rem;
-    border-radius: .4rem;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: 'Silkscreen', cursive;
-    animation: myanimation 10s infinite;
-  }
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Silkscreen", cursive;
+  animation: myanimation 10s infinite;
+}
 .subText {
   color: #ffffff;
   font-size: 2rem;
   font-weight: 400;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
-  @keyframes myanimation {
-    0% {background-color: rgb(122, 13, 13);}
-    25%{background-color:rgb(38, 38, 38);}
-    50%{background-color:rgb(36, 88, 36);}
-    75%{background-color:rgb(49, 19, 52);}
-    100% {background-color: rgb(122, 13, 13);}
+@keyframes myanimation {
+  0% {
+    background-color: rgb(122, 13, 13);
   }
-  
+  25% {
+    background-color: rgb(38, 38, 38);
+  }
+  50% {
+    background-color: rgb(36, 88, 36);
+  }
+  75% {
+    background-color: rgb(49, 19, 52);
+  }
+  100% {
+    background-color: rgb(122, 13, 13);
+  }
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Silkscreen", cursive;
+}

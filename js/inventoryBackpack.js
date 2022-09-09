@@ -8,7 +8,10 @@ const everydayPack = new Backpack(
   4,
   12,
   12,
-  false
+  false,
+  "July 7, 2022 15:00:00 EST"
 );
 
 console.log("Backpack description:", everydayPack);
+console.log("Date aquired:", everydayPack.dateAcquired);
+console.log("Date since aquired:", everydayPack.backpackAge());
