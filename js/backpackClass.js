@@ -30,18 +30,3 @@ class Backpack {
   }
 }
 export default Backpack;
-
-class Sword {
-  constructor(
-    type,
-    magic,
-    damage,
-    weight,
-  ) {
-    this.type = type;
-    this.magic = magic;
-    this.damage = damage;
-    this.weight = weight;
-  }
-} 
-export default Sword;
