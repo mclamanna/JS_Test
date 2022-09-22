@@ -14,4 +14,4 @@ const everydayPack = new Backpack(
 
 console.log("Backpack description:", everydayPack);
 console.log("Date aquired:", everydayPack.dateAcquired);
-console.log("Date since aquired:", everydayPack.backpackAge());
+console.log("Age of backpack:", everydayPack.backpackAge(), "days old");
